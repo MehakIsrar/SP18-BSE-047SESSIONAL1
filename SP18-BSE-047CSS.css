@@ -1,0 +1,414 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .menubar
+  {
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-right: 50px;
+    padding-left:50px;
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+.nav-link {
+    font-size:18px;
+    margin:5px;
+  }
+
+  .subsnavbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .subsnavbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .subsnavbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*Style imahes 1.1*/
+  .image11
+  {
+      position: absolute;
+      left: 50px;
+  }
+  .image12
+  {
+    position: absolute;
+    right:385px;
+  }
+  
+
+  .first
+  {
+    border: 1px solid black;
+    position: absolute;
+    margin-left:956px;
+    width: 350px;
+    color:white;
+    background-color: #000;
+    padding-bottom: 5px;
+  }
+  .second
+  {
+    border: 1px solid black;
+    position: absolute;
+    margin-left:956px;
+    top:265px;
+    width: 350px;
+    padding-bottom: 20px;
+    color:white;
+    background-color: #000;
+    padding-top:2px;
+  }
+  .third
+  {
+    border: 1px solid black;
+    position: absolute;
+    margin-left:956px;
+    padding-bottom: 10px;
+    top:380px;
+    width: 350px;
+    color:white;
+    background-color: #000;
+  }
+  .fourth
+  {
+    border: 1px solid black;
+    position: absolute;
+    margin-left:956px;
+    top:490px;
+    width: 350px;
+    color:white;
+    background-color: #000;
+  }
+  .hor1
+  {
+      position: absolute;
+      top:620px;
+      left: 50px;
+  }
+  .texthor1
+  {
+    position: absolute;
+    top:820px;
+    left: 380px;
+  }
+  .texthor2
+  {
+    position: absolute;
+    top:820px;
+    left: 50px;
+  }
+  .texthor3
+  {
+    position: absolute;
+    top:820px;
+    left: 687px;
+  }
+  .texthor4
+  {
+    position: absolute;
+    top:820px;
+    left: 1000px;
+  }
+ 
+/*Adding second row of iamges*/
+.hor2
+{
+    position: absolute;
+    top:1100px;
+    left: 50px;
+}
+.texthor5
+{
+  position: absolute;
+  top:1300px;
+  left: 50px;
+  text-shadow:black;
+}
+.texthor6
+{
+  position: absolute;
+  top:1300px;
+  left: 380px;
+  text-shadow:black;
+}
+
+.texthor7
+{
+  position: absolute;
+  top:1300px;
+  left: 700px;
+  text-shadow:black;
+}
+.texthor8
+{
+  position: absolute;
+  top:1300px;
+  left: 1000px;
+  text-shadow:black;
+}
+
+/*More News*/
+.newsheading
+{
+    position: absolute;
+    top:1600px;
+    margin-left:100px;
+    color:black;
+}
+
+.vertical1
+{
+    position: absolute;
+    top:1650px;
+    left: 50px;
+}
+.verticaltext1
+{
+    
+        position: absolute;
+        top:1650px;
+        left: 500px;
+      
+}
+.verticaltext2
+{
+        position: absolute;
+        top:1950px;
+        left: 500px;
+}
+
+.verticaltext3
+{
+        position: absolute;
+        top:2220px;
+        left: 500px;
+}
+.verticaltext4
+{
+        position: absolute;
+        top:2490px;
+        left: 500px;
+}
+.verticaltext5
+{
+        position: absolute;
+        top:2760px;
+        left: 500px;
+}
+.verticaltext6
+{
+        position: absolute;
+        top:3010px;
+        left: 500px;
+}
+.verticaltext7
+{
+        position: absolute;
+        top:3270px;
+        left: 500px;
+}
+.verticaltext8
+{
+        position: absolute;
+        top:3530px;
+        left: 500px;
+}
+.verticaltext9
+{
+        position: absolute;
+        top:3800px;
+        left: 500px;
+}
+.searchbox
+{
+    position: absolute;
+        top:1700px;
+        left: 1000px;
+        width:600px;
+        height:290px;
+     
+}
+.facebookheading
+{ 
+    position: absolute;
+    top:1750px;
+    left: 1000px;
+}
+.trending
+{
+    position: absolute;
+    top:1830px;
+    left: 1000px;
+    border-width:10px;
+    border-style:solid;
+    border-color: gray;
+}
+/*buzznews*/
+.buzznewsvertical1
+{
+    position: absolute;
+      top:1900px;
+      left: 1000px;
+}
+.buzzz1
+{
+    position: absolute;
+    top:1931px;
+    left: 1110px;
+}
+
+.buzzz2
+{
+    position: absolute;
+    top:2060px;
+    left: 1110px;
+}
+.buzzz3
+{
+    position: absolute;
+    top:2180px;
+    left: 1110px;
+}
+.buzzz4
+{
+    position: absolute;
+    top:2310px;
+    left: 1110px;
+}
+.buzzz5
+{
+    position: absolute;
+    top:2430px;
+    left: 1110px;
+}
+.buzzverticalnewsimages
+{
+    position: absolute;
+    top:2600px;
+    left: 870px;
+}
+
+.buzzverticaltext1
+{
+    position: absolute;
+    top:2840px;
+    left: 870px;
+}
+.buzzverticaltext2
+{
+    position: absolute;
+    top:3150px;
+    left: 870px;
+}
+.buzzverticaltext3
+{
+    position: absolute;
+    top:3460px;
+    left: 870px;
+}
+.buzzverticaltext4
+{
+    position: absolute;
+    top:3770px;
+    left: 870px;
+}
+.buzzverticaltext5
+{
+    position: absolute;
+    top:4080px;
+    left: 870px;
+}
+/*Footer*/
+.footer
+{
+    position: absolute;;
+   background:lightgray;
+   color:lightgray;
+   height:400px;
+   top:4200px;
+   width: 1320px;
+}
+.footer-bottom
+{ 
+    top:4230px;
+
+}
+.contactus
+{
+    top:4230px;
+
+}
+.contactus
+{
+  
+     position: absolute;
+     top:4350px;
+     margin-left: 470px;
+     font-size: 50px;
+}
+.lastwork
+{
+    position: absolute;
+    top:4440px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.copyright
+{
+    position: absolute;
+    top:4550px;
+    margin-left: 400px;
+    font-size: 20px;
+}
